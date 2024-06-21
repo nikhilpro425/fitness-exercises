@@ -20,7 +20,7 @@ const HeroBanner = () => {
             Checkout the most effective exercises
         </Typography>
         <Button variant='contained' color='error' href='#exercises'
-            sx={{ backgroundColor: "#FF2625", padding: '10px'
+            sx={{ bgcolor: "#FF2625", padding: '10px'
             }}
             mb={4}
         >
