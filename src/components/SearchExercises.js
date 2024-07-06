@@ -21,7 +21,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 
   const handleSearch = async () => {
     if (search) {
-      const exercisesData = await fetchData( 'https://exercisedb.p.rapidapi.com/exercises',
+      const exercisesData = await fetchData( 'https://exercisedb.p.rapidapi.com/exercises?limit=900',
         exerciseOptions)
 
       const searchedExercises = exercisesData.filter(
@@ -81,7 +81,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       </Box>
 
       <Box sx={{ position: 'relative', width: '100%', p: '20px'}}>
-         <HorizontalScrollbar data={bodyParts} bodyPart ={bodyPart} setBodyPart={setBodyPart} />
+         <HorizontalScrollbar data={bodyParts} bodyPart ={bodyPart} setBodyPart={setBodyPart} isBodyParts />
       </Box>   
     </Stack> 
   )

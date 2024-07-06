@@ -9,8 +9,8 @@ const HeroBanner = () => {
         mt: {lg: '212px', xs: '70px'},
         ml: {sm: '50px'}
     }} position='relative' p='20'>
-        <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-            FITNESS CLUB
+        <Typography color="#FF2625" fontWeight="600" fontSize="50px">
+            STAYFIT CLUB
         </Typography>
         <Typography fontWeight='700' fontSize='40px' mb='30px' mt='30px'>
             Sweat, Smile <br /> and REPEAT
